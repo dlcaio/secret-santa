@@ -1,7 +1,7 @@
 const aws = require("aws-sdk");
 const unshuffledPeople = require("./people.json");
 const sourceEmail = require("./sourceEmail");
-const shuffleArray = require("./utils");
+const shuffleArray = require("./shuffleArray");
 
 const [arg] = process.argv.slice(2);
 
